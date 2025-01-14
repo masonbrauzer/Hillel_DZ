@@ -1,4 +1,4 @@
-number = input('Напиши как ты любишь Лену: ')
+number = input('Enter a five-digit number: ')
 number = int(number)
 a = (number % 10)
 b = (number % 100) // 10
