@@ -6,5 +6,5 @@ text_for_result = ''
 for i in t_text:
     if i not in trash:
         text_for_result += i
-print('#' + text_for_result)
+print('#' + (text_for_result[:139]))
 
